@@ -1,0 +1,28 @@
+# path                                                                          cross_section             nEvents                  luminosity            year        long/mid/short
+# Bkg samples (pb)
+####/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_DYJetsToLL.root            6225.4                     0                       56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_DYJetsToLL_1.root            6225.4                 130939660               56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_DYJetsToLL_2.root            6225.4                 130939660               56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_DYJetsToLL_3.root            6225.4                 130939660               56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_DYJetsToLL_4.root            6225.4                 130939660               56.96                2018
+#/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_ZGToLLG.root               147.6                      0                       56.96                2018
+#/publicfs/cms/user/wangzebing/ALP/NTuples/18/mc/ntuple_TTTo2L2Nu.root             87.3                       0                       56.96                2018
+# data 18
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_DoubleMuon_Run2018A.root     1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_DoubleMuon_Run2018B.root     1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_DoubleMuon_Run2018C.root     1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_DoubleMuon_Run2018D_1.root   1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_DoubleMuon_Run2018D_2.root   1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018A_1.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018A_2.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018A_3.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018B.root         1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018C.root         1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_1.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_2.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_3.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_4.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_5.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_6.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_7.root       1.0                    0                          56.96                2018
+/publicfs/cms/user/wangzebing/ALP/NTuples/18/data/ntuple_EGamma_Run2018D_8.root       1.0                    0                          56.96                2018

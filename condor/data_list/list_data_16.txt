@@ -1,0 +1,18 @@
+# path                                                                                cross_section             nEvents                  luminosity            year        long/mid/short
+# Bkg samples (pb)
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/mc/ntuple_DYJetsToLL.root                    6225.4                   0                        35.9                2016
+# data 16
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016B.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016C.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016D.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016E.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016F.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016G.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleEG_Run2016H.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016B.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016C.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016D.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016E.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016F.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016G.root            1.0                     0                        35.9                2016
+/publicfs/cms/user/wangzebing/ALP/NTuples/16/data/ntuple_DoubleMuon_Run2016H.root            1.0                     0                        35.9                2016
