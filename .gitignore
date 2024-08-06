@@ -1,1 +1,5 @@
 *.root
+*.log
+*.err
+*.out
+#fit/

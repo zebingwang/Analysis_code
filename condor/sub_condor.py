@@ -17,7 +17,6 @@ def parseOptions():
     # input options
     parser.add_option('-l', '--list', dest='LIST', type='string',default='./data_list/list_data_17.txt', help='the path of input data list')
     parser.add_option('-p', '--python', dest='PYTHON', type='string',default='../Reduced-tree/runCondor/condorFile/codeFile/makePlots_LLA_tree.py', help='path of the excuted python file')
-    parser.add_option('-L', '--Lumi', dest='LUMI', type='string',default='35.9', help='luminosities')
     parser.add_option('-C', '--CR', dest='CR', action='store_true', default=False, help='make control region')
     # store options and arguments as global variables
     global opt, args
@@ -42,10 +41,10 @@ def sub_condor():
 
     pyFile = opt.PYTHON
     datalist = opt.LIST
-    lumi = opt.LUMI
     CR = opt.CR
 
-    basicPath_output = '/publicfs/cms/user/wangzebing/ALP/Analysis_out/'
+    basicPath_output = '/publicfs/cms/user/wangzebing/ALP/Analysis_out/UL/'
+    basicPath_output_train = '/publicfs/cms/user/wangzebing/ALP/Analysis_out/UL/train/'
 
     list = open(datalist)
 
@@ -60,20 +59,29 @@ def sub_condor():
         nEvent = line.split()[2]
         lumi = line.split()[3]
         year = line.split()[4]
-        year = year.strip('\n')
+        train = line.split()[5]
+        train = train.strip('\n')
+
+        if int(train):
+            basicPath_output = basicPath_output_train
 
         if 'Run2018' in path_data:
-            path_out = basicPath_output + '18/massInde/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            path_out = basicPath_output + '18/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
         elif 'Run2017' in path_data:
-            path_out = basicPath_output + '17/massInde/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            path_out = basicPath_output + '17/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
         elif 'Run2016' in path_data:
-            path_out = basicPath_output + '16/massInde/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            if year == '2016':
+                path_out = basicPath_output + '16/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            else:
+                path_out = basicPath_output + '16APV/data/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
         elif year == '2016':
-            path_out = basicPath_output + '16/massInde/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            path_out = basicPath_output + '16/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+        elif year == '-2016':
+            path_out = basicPath_output + '16APV/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
         elif year == '2017':
-            path_out = basicPath_output + '17/massInde/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            path_out = basicPath_output + '17/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
         elif year == '2018':
-            path_out = basicPath_output + '18/massInde/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
+            path_out = basicPath_output + '18/mc/ALP_' + path_data.split('/')[-1].lstrip('ntuple_')
         else:
             print "wrong year"
             exit(0)

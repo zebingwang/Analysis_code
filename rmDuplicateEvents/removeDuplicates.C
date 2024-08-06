@@ -7,7 +7,7 @@
 void removeDuplicates() {
     //TString prefix = "/publicfs/cms/user/wangzebing/ALP/NTuples/17/data/ntuple_data17";
     //TString prefix = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/17/data/ALP_data_beforRM";
-    TString prefix = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/16/massInde/data/ALP_data_beforRM";
+    TString prefix = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/17/massInde/CR/data/ALP_data_beforRM";
     //TString prefix = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/17/QCD/ALP_QCD";
     //TString prefix = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/18/data/data_Run2018";
     //TString prefix = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/16/data/ALP_data_beforRM";

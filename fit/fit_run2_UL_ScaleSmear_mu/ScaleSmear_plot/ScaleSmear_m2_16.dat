@@ -1,0 +1,11 @@
+#paramters     	normal         	phoScale_up    	phoScale_dn    	phoSmear_up    	phoSmear_dn    	lepScale_up    	lepScale_dn    	lepSmear_up    	lepSmear_dn    	
+#sigma_float    	0.00000			0.00000			0.00000			-0.50651			-0.50654			0.00000			0.00000			-0.54598			-0.53712			
+#mean_float     	0.00000			-0.01975			-0.02019			0.00000			0.00000			-0.01935			-0.02040			0.00000			0.00000			
+photonCatSmears=pho_Smear_M2_16,lep_Smear_M2_16
+photonCatScales=pho_Scale_M2_16,lep_Scale_M2_16
+diphotonCat=0
+proc=ggh
+pho_Smear_M2_16		0.00000	0.50654	0.00000
+lep_Smear_M2_16		0.00000	0.54598	0.00000
+pho_Scale_M2_16	0.02019	0.00000	0.00000
+lep_Scale_M2_16	0.02040	0.00000	0.00000

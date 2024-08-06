@@ -1,0 +1,281 @@
+hxmt-l03.ihep.ac.cn
+/publicfs/cms/user/wangzebing/ALP/Analysis_code/fit/fit_run2_param_ScaleSmear
+prepare year: 16
+open /publicfs/cms/user/wangzebing/ALP/Analysis_out/16/massInde/ALP_M30.root success!
+Entries:  14442
+[[ INFO ]] prepare ALP mass: 125
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::Sqrts
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::IntLumi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::CMS_hza_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::CMS_hza_weight
+###################################################
+  1) 0x8c5e7f0 RooRealVar::   CMS_hza_mass = 125  L(110 - 180)  "CMS_hza_mass"
+  2) 0x8c42d70 RooRealVar:: CMS_hza_weight = 450000  L(-100000 - 1e+06)  "CMS_hza_weight"
+###################################################
+DataStore ggh_125_13TeV_cat0_normal (ggh_125_13TeV_cat0_normal)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.972  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_normal) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_normal
+DataStore ggh_125_13TeV_cat0_phoScale_up (ggh_125_13TeV_cat0_phoScale_up)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 122.015  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoScale_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoScale_up
+DataStore ggh_125_13TeV_cat0_phoScale_dn (ggh_125_13TeV_cat0_phoScale_dn)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.93  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoScale_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoScale_dn
+DataStore ggh_125_13TeV_cat0_phoSmear_up (ggh_125_13TeV_cat0_phoSmear_up)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.96  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoSmear_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoSmear_up
+DataStore ggh_125_13TeV_cat0_phoSmear_dn (ggh_125_13TeV_cat0_phoSmear_dn)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.985  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoSmear_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoSmear_dn
+DataStore ggh_125_13TeV_cat0_lepScale_up (ggh_125_13TeV_cat0_lepScale_up)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.983  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepScale_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepScale_up
+DataStore ggh_125_13TeV_cat0_lepScale_dn (ggh_125_13TeV_cat0_lepScale_dn)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.918  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepScale_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepScale_dn
+DataStore ggh_125_13TeV_cat0_lepSmear_up (ggh_125_13TeV_cat0_lepSmear_up)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.972  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepSmear_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepSmear_up
+DataStore ggh_125_13TeV_cat0_lepSmear_dn (ggh_125_13TeV_cat0_lepSmear_dn)
+  Contains 1740 entries
+  Observables: 
+    1)  CMS_hza_mass = 121.973  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepSmear_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepSmear_dn
+prepare year: 17
+open /publicfs/cms/user/wangzebing/ALP/Analysis_out/17/massInde/ALP_M30.root success!
+Entries:  14442
+[[ INFO ]] prepare ALP mass: 125
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::Sqrts
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::IntLumi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::CMS_hza_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::CMS_hza_weight
+###################################################
+  1) 0x8c5e2c0 RooRealVar::   CMS_hza_mass = 125  L(110 - 180)  "CMS_hza_mass"
+  2) 0x8c5e7f0 RooRealVar:: CMS_hza_weight = 450000  L(-100000 - 1e+06)  "CMS_hza_weight"
+###################################################
+DataStore ggh_125_13TeV_cat0_normal (ggh_125_13TeV_cat0_normal)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.523  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_normal) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_normal
+DataStore ggh_125_13TeV_cat0_phoScale_up (ggh_125_13TeV_cat0_phoScale_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.55  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoScale_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoScale_up
+DataStore ggh_125_13TeV_cat0_phoScale_dn (ggh_125_13TeV_cat0_phoScale_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.497  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoScale_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoScale_dn
+DataStore ggh_125_13TeV_cat0_phoSmear_up (ggh_125_13TeV_cat0_phoSmear_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.522  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoSmear_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoSmear_up
+DataStore ggh_125_13TeV_cat0_phoSmear_dn (ggh_125_13TeV_cat0_phoSmear_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.525  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoSmear_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoSmear_dn
+DataStore ggh_125_13TeV_cat0_lepScale_up (ggh_125_13TeV_cat0_lepScale_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.57  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepScale_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepScale_up
+DataStore ggh_125_13TeV_cat0_lepScale_dn (ggh_125_13TeV_cat0_lepScale_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.476  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepScale_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepScale_dn
+DataStore ggh_125_13TeV_cat0_lepSmear_up (ggh_125_13TeV_cat0_lepSmear_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.559  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepSmear_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepSmear_up
+DataStore ggh_125_13TeV_cat0_lepSmear_dn (ggh_125_13TeV_cat0_lepSmear_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.487  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepSmear_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepSmear_dn
+prepare year: 18
+open /publicfs/cms/user/wangzebing/ALP/Analysis_out/18/massInde/ALP_M30.root success!
+Entries:  14442
+[[ INFO ]] prepare ALP mass: 125
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::Sqrts
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::IntLumi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::CMS_hza_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing RooRealVar::CMS_hza_weight
+###################################################
+  1) 0x8c68dc0 RooRealVar::   CMS_hza_mass = 125  L(110 - 180)  "CMS_hza_mass"
+  2) 0x8c5e2c0 RooRealVar:: CMS_hza_weight = 450000  L(-100000 - 1e+06)  "CMS_hza_weight"
+###################################################
+DataStore ggh_125_13TeV_cat0_normal (ggh_125_13TeV_cat0_normal)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.523  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_normal) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_normal
+DataStore ggh_125_13TeV_cat0_phoScale_up (ggh_125_13TeV_cat0_phoScale_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.55  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoScale_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoScale_up
+DataStore ggh_125_13TeV_cat0_phoScale_dn (ggh_125_13TeV_cat0_phoScale_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.497  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoScale_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoScale_dn
+DataStore ggh_125_13TeV_cat0_phoSmear_up (ggh_125_13TeV_cat0_phoSmear_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.522  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoSmear_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoSmear_up
+DataStore ggh_125_13TeV_cat0_phoSmear_dn (ggh_125_13TeV_cat0_phoSmear_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.525  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_phoSmear_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_phoSmear_dn
+DataStore ggh_125_13TeV_cat0_lepScale_up (ggh_125_13TeV_cat0_lepScale_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.57  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepScale_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepScale_up
+DataStore ggh_125_13TeV_cat0_lepScale_dn (ggh_125_13TeV_cat0_lepScale_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.476  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepScale_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepScale_dn
+DataStore ggh_125_13TeV_cat0_lepSmear_up (ggh_125_13TeV_cat0_lepSmear_up)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.559  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepSmear_up) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepSmear_up
+DataStore ggh_125_13TeV_cat0_lepSmear_dn (ggh_125_13TeV_cat0_lepSmear_dn)
+  Contains 2469 entries
+  Observables: 
+    1)  CMS_hza_mass = 124.487  L(110 - 180)  "CMS_hza_mass"
+  Dataset variable "CMS_hza_weight" is interpreted as the event weight
+<class 'ROOT.RooArgSet'>
+###################################################
+[#1] INFO:InputArguments -- RooAbsData::plotOn(ggh_125_13TeV_cat0_lepSmear_dn) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(CMS_hza_workspace) importing dataset ggh_125_13TeV_cat0_lepSmear_dn

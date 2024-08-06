@@ -1,0 +1,53 @@
+# path                                                                                     cross_section             nEvents                  luminosity            year        train(y/n)       long/mid/short
+# Bkg samples (pb)
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/mc/ntuple_DYJetsToLL_0000.root                   6435.0                  0                          16.8                2016           0
+# data 16
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_DoubleEG_Run2016F_0000.root                1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_DoubleEG_Run2016G_0000.root                1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_DoubleEG_Run2016H_0000.root                1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_DoubleMuon_Run2016F_0000.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_DoubleMuon_Run2016G_0000.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_DoubleMuon_Run2016H_0000.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_MuonEG_Run2016F_0000.root                  1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_MuonEG_Run2016G_0000.root                  1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_MuonEG_Run2016H_0000.root                  1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleElectron_Run2016F_0000.root          1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleElectron_Run2016G_0000.root          1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleElectron_Run2016G_0001.root          1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleElectron_Run2016H_0000.root          1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleElectron_Run2016H_0001.root          1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleMuon_Run2016F_0000.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleMuon_Run2016G_0000.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleMuon_Run2016G_0001.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleMuon_Run2016H_0000.root              1.0                    0                          16.8                2016           0
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/data/ntuple_SingleMuon_Run2016H_0001.root              1.0                    0                          16.8                2016           0
+#sig
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M1.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M2.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M3.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M4.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M5.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M6.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M7.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M8.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M9.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M10.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M15.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M20.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M25.root                           0.1                    0                          16.8                2016           0
+/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/ntuple_M30.root                           0.1                    0                          16.8                2016           0
+#sig train
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M1.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M2.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M3.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M4.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M5.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M6.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M7.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M8.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M9.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M10.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M15.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M20.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M25.root                           0.1                    0                          16.8                2016           1
+#/publicfs/cms/user/wangzebing/ALP/NTuples/UL/16/sig/train/ntuple_M30.root                           0.1                    0                          16.8                2016           1

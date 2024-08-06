@@ -25,30 +25,16 @@ setPlotStyle()
 gROOT.SetBatch()
 
 #The directory containing the scripts and trees
-baseDir = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/17/"
+baseDir = "/publicfs/cms/user/wangzebing/ALP/Analysis_out/UL/run2/"
 
 sigFileName = "ALP_M1.root"
-DYJetFileName = "ALP_data.root"
+DYJetFileName = "ALP_DYJetsToLL.root"
 
 variablesToCompare = args.variables
 #You can also edit this list to select the variables from within the script
 variablesToCompare = [
-"dR_g1l1",
-"dR_g1l2",
-"dR_g2l1",
-"dR_g2l2",
-"dR_g1l1_mva",
-"dR_g1l2_mva",
-"dR_g2l1_mva",
-"dR_g2l2_mva",
-"var_dR_Za",
-"var_dR_g1g2",
-"var_dR_g1Z",
-"var_PtaOverMa",
-"var_PtaOverMh",
-"var_Pta",
-"var_MhMa",
-"var_MhMZ"
+"pho1trackIso",
+"pho2trackIso"
 ]
 
 rebinHists = args.rebinHists

@@ -1,0 +1,33 @@
+#paramters     	normal         	phoScale_up    	phoScale_dn    	phoSmear_up    	phoSmear_dn    	lepScale_up    	lepScale_dn    	lepSmear_up    	lepSmear_dn    	
+#sigma_float    	0.00000			0.00000			0.00000			0.31112			0.31047			0.00000			0.00000			0.34475			0.33195			
+#mean_float     	0.00000			0.00099			0.00055			0.00000			0.00000			0.00113			0.00024			0.00000			0.00000			
+photonCatSmears=pho_Smear_M15_16,lep_Smear_M15_16
+photonCatScales=pho_Scale_M15_16,lep_Scale_M15_16
+diphotonCat=0
+proc=ggh
+pho_Smear_M15_16		0.00000	0.31112	0.00000
+lep_Smear_M15_16		0.00000	0.34475	0.00000
+pho_Scale_M15_16	0.00099	0.00000	0.00000
+lep_Scale_M15_16	0.00113	0.00000	0.00000
+#paramters     	normal         	phoScale_up    	phoScale_dn    	phoSmear_up    	phoSmear_dn    	lepScale_up    	lepScale_dn    	lepSmear_up    	lepSmear_dn    	
+#sigma_float    	0.00000			0.00000			0.00000			0.31112			0.31047			0.00000			0.00000			0.34475			0.33195			
+#mean_float     	0.00000			0.00099			0.00055			0.00000			0.00000			0.00113			0.00024			0.00000			0.00000			
+photonCatSmears=pho_Smear_M15_16,lep_Smear_M15_16
+photonCatScales=pho_Scale_M15_16,lep_Scale_M15_16
+diphotonCat=0
+proc=ggh
+pho_Smear_M15_16		0.00000	0.31112	0.00000
+lep_Smear_M15_16		0.00000	0.34475	0.00000
+pho_Scale_M15_16	0.00099	0.00000	0.00000
+lep_Scale_M15_16	0.00113	0.00000	0.00000
+#paramters     	normal         	phoScale_up    	phoScale_dn    	phoSmear_up    	phoSmear_dn    	lepScale_up    	lepScale_dn    	lepSmear_up    	lepSmear_dn    	
+#sigma_float    	0.00000			0.00000			0.00000			0.31112			0.31047			0.00000			0.00000			0.34475			0.33195			
+#mean_float     	0.00000			0.00099			0.00055			0.00000			0.00000			0.00113			0.00024			0.00000			0.00000			
+photonCatSmears=pho_Smear_M15_16,lep_Smear_M15_16
+photonCatScales=pho_Scale_M15_16,lep_Scale_M15_16
+diphotonCat=0
+proc=ggh
+pho_Smear_M15_16		0.00000	0.31112	0.00000
+lep_Smear_M15_16		0.00000	0.34475	0.00000
+pho_Scale_M15_16	0.00099	0.00000	0.00000
+lep_Scale_M15_16	0.00113	0.00000	0.00000

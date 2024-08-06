@@ -1,13 +1,13 @@
 # path                                                                          cross_section             nEvents                  luminosity            year        long/mid/short
 # Bkg samples (pb
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL1.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL2.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL3.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL4.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL5.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL6.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL7.root            6225.4                 249204562                  41.5                2017
-/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL8.root            6225.4                 249204562                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_1.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_2.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_3.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_4.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_5.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_6.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_7.root            6225.4                 250862082                  41.5                2017
+/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_DYJetsToLL_8.root            6225.4                 250862082                  41.5                2017
 #/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_ZGToLLG.root                 147.6                  0                          41.5                2017
 #/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_GGHToZG.root                21.46                  0                          41.5                2017
 #/publicfs/cms/user/wangzebing/ALP/NTuples/17/mc/ntuple_VBFHToZG.root               3.861                  0                          41.5                2017
